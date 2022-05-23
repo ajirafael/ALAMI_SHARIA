@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+alami,Chrome 101.0.4951.67,,,2022-05-23 18:55:07,2022-05-23 18:56:07,59.941s,PASSED
+,,,,,,,
+Test Cases/regis,Chrome 101.0.4951.67,,,2022-05-23 18:55:07,2022-05-23 18:55:41,33.600s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-23 18:55:08,2022-05-23 18:55:11,3.256s,PASSED
+"navigateToUrl(""https://dev.p2p.alamisharia.co.id/register"")",Chrome 101.0.4951.67,,,2022-05-23 18:55:11,2022-05-23 18:55:17,6.195s,PASSED
+"click(findTestObject(""Object Repository/Page_ALAMI Daftar  ALAMI Peer-to-Peer Lendi_33cbd2/div_Pemberi Dana                           _b3d4b2""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:17,2022-05-23 18:55:19,1.737s,PASSED
+"setText(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/input_Nama Lengkap_name""), ""alami321"")",Chrome 101.0.4951.67,,,2022-05-23 18:55:19,2022-05-23 18:55:20,0.767s,PASSED
+"click(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/div_Email                                  _515bc9""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:20,2022-05-23 18:55:20,0.390s,PASSED
+"setText(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/input_Nama Lengkap_name""), ""alami"")",Chrome 101.0.4951.67,,,2022-05-23 18:55:20,2022-05-23 18:55:21,1.029s,PASSED
+Number = Random().nextInt(1000 - 1 + 1) + 10,Chrome 101.0.4951.67,,,2022-05-23 18:55:21,2022-05-23 18:55:21,0.010s,PASSED
+"Counter1 = ""alami"" + Number",Chrome 101.0.4951.67,,,2022-05-23 18:55:21,2022-05-23 18:55:21,0.001s,PASSED
+"email = Counter1 + ""@mail7.io""",Chrome 101.0.4951.67,,,2022-05-23 18:55:21,2022-05-23 18:55:21,0.000s,PASSED
+email = email,Chrome 101.0.4951.67,,,2022-05-23 18:55:21,2022-05-23 18:55:22,0.299s,PASSED
+"setText(findTestObject(""Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/input_Email_email"", [email:email]), email)",Chrome 101.0.4951.67,,,2022-05-23 18:55:22,2022-05-23 18:55:22,0.767s,PASSED
+Number1 = Random().nextInt(999999999 - 10 + 1) + 10,Chrome 101.0.4951.67,,,2022-05-23 18:55:22,2022-05-23 18:55:22,0.001s,PASSED
+"phone = ""0812"" + Number1",Chrome 101.0.4951.67,,,2022-05-23 18:55:22,2022-05-23 18:55:22,0.001s,PASSED
+phone = phone,Chrome 101.0.4951.67,,,2022-05-23 18:55:22,2022-05-23 18:55:22,0.001s,PASSED
+"setText(findTestObject(""Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/input_No. Handphone_phone"", [phone:phone]), phone)",Chrome 101.0.4951.67,,,2022-05-23 18:55:22,2022-05-23 18:55:23,0.746s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/input_Password_password""), ""qoEw0cfPgy3c6UpBNaFY9w=="")",Chrome 101.0.4951.67,,,2022-05-23 18:55:23,2022-05-23 18:55:24,0.597s,PASSED
+"click(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/label_Individual""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:24,2022-05-23 18:55:24,0.586s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/select_-- Silahkan Pilih --                _9f24ad""), ""2"", true)",Chrome 101.0.4951.67,,,2022-05-23 18:55:24,2022-05-23 18:55:26,1.308s,PASSED
+"click(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/button_Lanjutkan""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:26,2022-05-23 18:55:26,0.436s,PASSED
+"click(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/h5_Kebijakan Privasi  Ketentuan Pengguna""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:26,2022-05-23 18:55:27,0.896s,PASSED
+"click(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/p_Bismillahirrahmanirrahim""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:27,2022-05-23 18:55:27,0.413s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:27,2022-05-23 18:55:28,0.355s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:28,2022-05-23 18:55:28,0.514s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:28,2022-05-23 18:55:29,0.309s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:29,2022-05-23 18:55:29,0.301s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:29,2022-05-23 18:55:29,0.312s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:29,2022-05-23 18:55:29,0.308s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:29,2022-05-23 18:55:30,0.316s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:30,2022-05-23 18:55:30,0.306s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:30,2022-05-23 18:55:30,0.314s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:30,2022-05-23 18:55:31,0.310s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:31,2022-05-23 18:55:31,0.296s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:31,2022-05-23 18:55:31,0.316s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:31,2022-05-23 18:55:32,0.311s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:32,2022-05-23 18:55:32,0.314s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:32,2022-05-23 18:55:32,0.308s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:32,2022-05-23 18:55:33,0.307s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:33,2022-05-23 18:55:33,0.303s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:33,2022-05-23 18:55:33,0.300s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:33,2022-05-23 18:55:33,0.301s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:33,2022-05-23 18:55:34,0.298s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:34,2022-05-23 18:55:34,0.300s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:34,2022-05-23 18:55:34,0.296s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:34,2022-05-23 18:55:35,0.307s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:35,2022-05-23 18:55:35,0.299s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:35,2022-05-23 18:55:35,0.310s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:35,2022-05-23 18:55:36,0.298s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:36,2022-05-23 18:55:36,0.308s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:36,2022-05-23 18:55:36,0.295s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:36,2022-05-23 18:55:37,0.317s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:37,2022-05-23 18:55:37,0.313s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:37,2022-05-23 18:55:37,0.305s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:37,2022-05-23 18:55:37,0.298s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:37,2022-05-23 18:55:38,0.299s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:38,2022-05-23 18:55:38,0.301s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:38,2022-05-23 18:55:38,0.292s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:38,2022-05-23 18:55:39,0.294s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:39,2022-05-23 18:55:39,0.301s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:39,2022-05-23 18:55:39,0.297s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 101.0.4951.67,,,2022-05-23 18:55:39,2022-05-23 18:55:40,0.322s,PASSED
+"click(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/input_Saya tertarik update info terbaru ALA_1ed3da""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:40,2022-05-23 18:55:40,0.409s,PASSED
+"click(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/input_Saya sudah membaca dan setuju dengan__c3b002""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:40,2022-05-23 18:55:40,0.414s,PASSED
+"click(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/button_Lanjutkan_1""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:40,2022-05-23 18:55:41,0.514s,PASSED
+,,,,,,,
+Test Cases/activation,Chrome 101.0.4951.67,,,2022-05-23 18:55:41,2022-05-23 18:56:01,19.676s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-23 18:55:41,2022-05-23 18:55:44,2.035s,PASSED
+"navigateToUrl(""https://mail7.io/"")",Chrome 101.0.4951.67,,,2022-05-23 18:55:44,2022-05-23 18:55:47,2.977s,PASSED
+"setText(findTestObject(""Object Repository/Page_Mail 7 - Email workflow testing tool w_96df2e/input_QA Developers_username""), email)",Chrome 101.0.4951.67,,,2022-05-23 18:55:47,2022-05-23 18:55:47,0.703s,PASSED
+"click(findTestObject(""Object Repository/Page_Mail 7 - Email workflow testing tool w_96df2e/input_mail7.io_button is-primary w-50""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:47,2022-05-23 18:55:53,6.087s,PASSED
+"click(findTestObject(""Object Repository/Page_Mail 7 - Dashboard/p_Mina  ALAMI  no-replyalamisharia.co.id""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:53,2022-05-23 18:55:55,2.041s,PASSED
+"click(findTestObject(""Object Repository/Page_Mail 7 - Dashboard/td_Assalamualaikum                                                    alami""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:55,2022-05-23 18:55:57,1.404s,PASSED
+"switchToWindowTitle(""Mail 7 - Dashboard"")",Chrome 101.0.4951.67,,,2022-05-23 18:55:57,2022-05-23 18:55:57,0.041s,PASSED
+"click(findTestObject(""Object Repository/Page_Mail 7 - Dashboard/a_Klik Untuk Aktivasi Email  Log-in (1)""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:57,2022-05-23 18:55:57,0.625s,PASSED
+switchToWindowIndex(1),Chrome 101.0.4951.67,,,2022-05-23 18:55:57,2022-05-23 18:55:57,0.033s,PASSED
+"click(findTestObject(""Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/a_Masuk ke Akun Saya""))",Chrome 101.0.4951.67,,,2022-05-23 18:55:57,2022-05-23 18:56:01,3.134s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 101.0.4951.67,,,2022-05-23 18:56:01,2022-05-23 18:56:07,6.130s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-23 18:56:01,2022-05-23 18:56:03,2.061s,PASSED
+"navigateToUrl(""https://dev.p2p.alamisharia.co.id/"")",Chrome 101.0.4951.67,,,2022-05-23 18:56:03,2022-05-23 18:56:05,1.947s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  ALAMI Peer-to-Peer Lending Syariah/input_Assalamualaikum_username""), email)",Chrome 101.0.4951.67,,,2022-05-23 18:56:05,2022-05-23 18:56:06,0.708s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  ALAMI Peer-to-Peer Lending Syariah/input_Assalamualaikum_password""), ""qoEw0cfPgy3c6UpBNaFY9w=="")",Chrome 101.0.4951.67,,,2022-05-23 18:56:06,2022-05-23 18:56:06,0.442s,PASSED
+"click(findTestObject(""Object Repository/Page_Login  ALAMI Peer-to-Peer Lending Syariah/a_Masuk Ke Akun Saya""))",Chrome 101.0.4951.67,,,2022-05-23 18:56:06,2022-05-23 18:56:07,0.446s,PASSED

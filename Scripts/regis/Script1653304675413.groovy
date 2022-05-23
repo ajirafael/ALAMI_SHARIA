@@ -145,6 +145,8 @@ WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ALT, Keys.DOWN))
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ALT, Keys.DOWN))
 
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ALT, Keys.DOWN))
+
 WebUI.click(findTestObject('Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/input_Saya tertarik update info terbaru ALA_1ed3da'))
 
 WebUI.click(findTestObject('Object Repository/Page_Daftar Sebagai Pemberi Dana  ALAMI Pee_40e437/input_Saya sudah membaca dan setuju dengan__c3b002'))
